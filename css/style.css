@@ -1,0 +1,56 @@
+a {
+  margin: auto;
+  display: inline-block;
+  /* change display to inline, block, none etc and observe the difference*/
+  padding: 10px;
+  text-decoration: none;
+  background-color: blueviolet;
+  color: azure;
+  border-radius: 3pt;
+}
+
+ol {
+  background: azure;
+  border-radius: 3pt;
+  display: inline-block;
+  border: 1px solid blueviolet;
+}
+
+li {
+  border: 1px solid;
+  background-attachment: fixed;
+  background-color: darkseagreen;
+  border-collapse: collapse;
+}
+
+img {
+  margin: auto;
+  padding: 10px 10px;
+  display: inline-block;
+  width: auto;
+  max-width: 400px;
+  min-width: 100px;
+}
+
+form {
+  background: burlywood;
+  margin: auto;
+  padding: 10px;
+}
+
+label {
+  margin: auto;
+  padding: 10px;
+}
+form input {
+  margin: 10px;
+  padding: 0px;
+  align-items: center;
+}
+
+button {
+  color: chartreuse;
+  background-color: darkolivegreen;
+  margin: 30px 30px;
+  padding: 10px 30px;
+}
