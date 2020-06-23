@@ -1,3 +1,10 @@
+/* reset margin and padding to 0 to remove all default browser settings */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+/* Stylig using tag selectors */
+/* anchor tag styling */
 a {
   margin: auto;
   display: inline-block;
@@ -6,21 +13,21 @@ a {
   text-decoration: none;
   background-color: blueviolet;
   color: azure;
-  border-radius: 3pt;
+  border-radius: 5px;
 }
 
-ol {
+ul {
   background: azure;
   border-radius: 3pt;
   display: inline-block;
   border: 1px solid blueviolet;
+  border-collapse: collapse;
 }
 
 li {
   border: 1px solid;
   background-attachment: fixed;
   background-color: darkseagreen;
-  border-collapse: collapse;
 }
 
 img {
@@ -42,15 +49,22 @@ label {
   margin: auto;
   padding: 10px;
 }
-form input {
+input {
   margin: 10px;
   padding: 0px;
   align-items: center;
+  border-radius: 3px;
+  border: none;
+  box-shadow: blue;
 }
 
 button {
-  color: chartreuse;
+  color: white;
   background-color: darkolivegreen;
   margin: 30px 30px;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
+
+/* Styling Using Classes, Id and pseudo selectors  */
+
+/* box model styling and divs */
