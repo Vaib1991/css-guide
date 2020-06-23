@@ -41,8 +41,12 @@ img {
 
 form {
   background: burlywood;
-  margin: auto;
+  margin: auto 0 auto 0;
   padding: 10px;
+}
+.form-container {
+  display: inline-block;
+  margin: auto;
 }
 
 label {
